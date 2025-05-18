@@ -1,0 +1,180 @@
+nohup: ignoring input
+WARNING:root:Limited tf.compat.v2.summary API due to missing TensorBoard installation.
+ori_data shape is  (2183, 307)
+pems04_ep dataset is ready.
+ori_data [0] shape is:  (24, 1)
+ori_data save shape is:  (663120, 24, 1)
+pems04_ep dataset is saved.
+Start Embedding Network Training
+step: 0/50000, e_loss: 0.199
+step: 1000/50000, e_loss: 0.0093
+step: 2000/50000, e_loss: 0.0059
+step: 3000/50000, e_loss: 0.0106
+step: 4000/50000, e_loss: 0.0057
+step: 5000/50000, e_loss: 0.004
+step: 6000/50000, e_loss: 0.0038
+step: 7000/50000, e_loss: 0.0055
+step: 8000/50000, e_loss: 0.004
+step: 9000/50000, e_loss: 0.0019
+step: 10000/50000, e_loss: 0.0031
+step: 11000/50000, e_loss: 0.0057
+step: 12000/50000, e_loss: 0.0027
+step: 13000/50000, e_loss: 0.0036
+step: 14000/50000, e_loss: 0.0035
+step: 15000/50000, e_loss: 0.0031
+step: 16000/50000, e_loss: 0.0033
+step: 17000/50000, e_loss: 0.0032
+step: 18000/50000, e_loss: 0.0038
+step: 19000/50000, e_loss: 0.0031
+step: 20000/50000, e_loss: 0.0021
+step: 21000/50000, e_loss: 0.0021
+step: 22000/50000, e_loss: 0.0017
+step: 23000/50000, e_loss: 0.002
+step: 24000/50000, e_loss: 0.001
+step: 25000/50000, e_loss: 0.002
+step: 26000/50000, e_loss: 0.0022
+step: 27000/50000, e_loss: 0.0031
+step: 28000/50000, e_loss: 0.0031
+step: 29000/50000, e_loss: 0.0024
+step: 30000/50000, e_loss: 0.0029
+step: 31000/50000, e_loss: 0.0019
+step: 32000/50000, e_loss: 0.0011
+step: 33000/50000, e_loss: 0.0022
+step: 34000/50000, e_loss: 0.0026
+step: 35000/50000, e_loss: 0.0023
+step: 36000/50000, e_loss: 0.0022
+step: 37000/50000, e_loss: 0.0024
+step: 38000/50000, e_loss: 0.0006
+step: 39000/50000, e_loss: 0.0026
+step: 40000/50000, e_loss: 0.0021
+step: 41000/50000, e_loss: 0.0023
+step: 42000/50000, e_loss: 0.001
+step: 43000/50000, e_loss: 0.0016
+step: 44000/50000, e_loss: 0.0017
+step: 45000/50000, e_loss: 0.0019
+step: 46000/50000, e_loss: 0.0023
+step: 47000/50000, e_loss: 0.0023
+step: 48000/50000, e_loss: 0.0019
+step: 49000/50000, e_loss: 0.0017
+Finish Embedding Network Training
+Start Training with Supervised Loss Only
+step: 0/50000, s_loss: 0.3487
+step: 1000/50000, s_loss: 0.1194
+step: 2000/50000, s_loss: 0.1129
+step: 3000/50000, s_loss: 0.1184
+step: 4000/50000, s_loss: 0.1172
+step: 5000/50000, s_loss: 0.1128
+step: 6000/50000, s_loss: 0.1052
+step: 7000/50000, s_loss: 0.1071
+step: 8000/50000, s_loss: 0.1147
+step: 9000/50000, s_loss: 0.1151
+step: 10000/50000, s_loss: 0.1119
+step: 11000/50000, s_loss: 0.1176
+step: 12000/50000, s_loss: 0.1095
+step: 13000/50000, s_loss: 0.1083
+step: 14000/50000, s_loss: 0.1118
+step: 15000/50000, s_loss: 0.1049
+step: 16000/50000, s_loss: 0.1061
+step: 17000/50000, s_loss: 0.1041
+step: 18000/50000, s_loss: 0.106
+step: 19000/50000, s_loss: 0.1058
+step: 20000/50000, s_loss: 0.1116
+step: 21000/50000, s_loss: 0.1103
+step: 22000/50000, s_loss: 0.1109
+step: 23000/50000, s_loss: 0.1101
+step: 24000/50000, s_loss: 0.1063
+step: 25000/50000, s_loss: 0.1083
+step: 26000/50000, s_loss: 0.1102
+step: 27000/50000, s_loss: 0.1041
+step: 28000/50000, s_loss: 0.1068
+step: 29000/50000, s_loss: 0.1101
+step: 30000/50000, s_loss: 0.1107
+step: 31000/50000, s_loss: 0.1117
+step: 32000/50000, s_loss: 0.1101
+step: 33000/50000, s_loss: 0.1071
+step: 34000/50000, s_loss: 0.1138
+step: 35000/50000, s_loss: 0.1073
+step: 36000/50000, s_loss: 0.1062
+step: 37000/50000, s_loss: 0.1138
+step: 38000/50000, s_loss: 0.1075
+step: 39000/50000, s_loss: 0.1045
+step: 40000/50000, s_loss: 0.1049
+step: 41000/50000, s_loss: 0.1118
+step: 42000/50000, s_loss: 0.1046
+step: 43000/50000, s_loss: 0.1074
+step: 44000/50000, s_loss: 0.1069
+step: 45000/50000, s_loss: 0.1062
+step: 46000/50000, s_loss: 0.1084
+step: 47000/50000, s_loss: 0.1109
+step: 48000/50000, s_loss: 0.1033
+step: 49000/50000, s_loss: 0.1105
+Finish Training with Supervised Loss Only
+Start Joint Training
+step: 0/50000, d_loss: 1.9804, g_loss_u: 0.8738, g_loss_s: 0.1067, g_loss_v: 0.2609, e_loss_t0: 0.0295
+step: 1000/50000, d_loss: 1.1566, g_loss_u: 1.2853, g_loss_s: 0.1118, g_loss_v: 0.0352, e_loss_t0: 0.0024
+step: 2000/50000, d_loss: 1.2031, g_loss_u: 1.5859, g_loss_s: 0.1127, g_loss_v: 0.0311, e_loss_t0: 0.0015
+step: 3000/50000, d_loss: 1.4865, g_loss_u: 1.3328, g_loss_s: 0.1076, g_loss_v: 0.0294, e_loss_t0: 0.0017
+step: 4000/50000, d_loss: 1.5665, g_loss_u: 1.5968, g_loss_s: 0.1066, g_loss_v: 0.029, e_loss_t0: 0.0012
+step: 5000/50000, d_loss: 1.5519, g_loss_u: 1.3254, g_loss_s: 0.1015, g_loss_v: 0.0397, e_loss_t0: 0.0024
+step: 6000/50000, d_loss: 1.5717, g_loss_u: 1.2378, g_loss_s: 0.0983, g_loss_v: 0.0328, e_loss_t0: 0.0014
+step: 7000/50000, d_loss: 1.7325, g_loss_u: 1.4866, g_loss_s: 0.1035, g_loss_v: 0.0499, e_loss_t0: 0.0022
+step: 8000/50000, d_loss: 1.6974, g_loss_u: 1.2732, g_loss_s: 0.0954, g_loss_v: 0.0601, e_loss_t0: 0.0007
+step: 9000/50000, d_loss: 1.6972, g_loss_u: 1.2254, g_loss_s: 0.0979, g_loss_v: 0.0297, e_loss_t0: 0.0013
+step: 10000/50000, d_loss: 1.7373, g_loss_u: 1.1548, g_loss_s: 0.0944, g_loss_v: 0.024, e_loss_t0: 0.0016
+step: 11000/50000, d_loss: 1.6629, g_loss_u: 1.2833, g_loss_s: 0.098, g_loss_v: 0.0288, e_loss_t0: 0.0015
+step: 12000/50000, d_loss: 1.698, g_loss_u: 1.1249, g_loss_s: 0.0921, g_loss_v: 0.0249, e_loss_t0: 0.002
+step: 13000/50000, d_loss: 1.7783, g_loss_u: 1.197, g_loss_s: 0.0974, g_loss_v: 0.0336, e_loss_t0: 0.0012
+step: 14000/50000, d_loss: 1.7808, g_loss_u: 1.2282, g_loss_s: 0.0942, g_loss_v: 0.022, e_loss_t0: 0.0012
+step: 15000/50000, d_loss: 1.5676, g_loss_u: 1.2557, g_loss_s: 0.093, g_loss_v: 0.0344, e_loss_t0: 0.0016
+step: 16000/50000, d_loss: 1.5991, g_loss_u: 1.4028, g_loss_s: 0.0919, g_loss_v: 0.0436, e_loss_t0: 0.0014
+step: 17000/50000, d_loss: 1.5443, g_loss_u: 1.3368, g_loss_s: 0.0897, g_loss_v: 0.0418, e_loss_t0: 0.0012
+step: 18000/50000, d_loss: 1.6952, g_loss_u: 1.1931, g_loss_s: 0.0876, g_loss_v: 0.0313, e_loss_t0: 0.0014
+step: 19000/50000, d_loss: 1.5885, g_loss_u: 1.2502, g_loss_s: 0.0866, g_loss_v: 0.0236, e_loss_t0: 0.0011
+step: 20000/50000, d_loss: 1.7579, g_loss_u: 1.1296, g_loss_s: 0.088, g_loss_v: 0.0389, e_loss_t0: 0.0011
+step: 21000/50000, d_loss: 1.5594, g_loss_u: 1.4377, g_loss_s: 0.093, g_loss_v: 0.0191, e_loss_t0: 0.0004
+step: 22000/50000, d_loss: 1.7567, g_loss_u: 1.2379, g_loss_s: 0.0911, g_loss_v: 0.0314, e_loss_t0: 0.0009
+step: 23000/50000, d_loss: 1.5248, g_loss_u: 1.2428, g_loss_s: 0.0851, g_loss_v: 0.0316, e_loss_t0: 0.0012
+step: 24000/50000, d_loss: 1.6015, g_loss_u: 1.3135, g_loss_s: 0.0878, g_loss_v: 0.0289, e_loss_t0: 0.0015
+step: 25000/50000, d_loss: 1.5907, g_loss_u: 1.4519, g_loss_s: 0.082, g_loss_v: 0.0226, e_loss_t0: 0.001
+step: 26000/50000, d_loss: 1.6303, g_loss_u: 1.3684, g_loss_s: 0.0883, g_loss_v: 0.0402, e_loss_t0: 0.0017
+step: 27000/50000, d_loss: 1.6095, g_loss_u: 1.2743, g_loss_s: 0.0877, g_loss_v: 0.0503, e_loss_t0: 0.0014
+step: 28000/50000, d_loss: 1.6641, g_loss_u: 1.4125, g_loss_s: 0.0872, g_loss_v: 0.0317, e_loss_t0: 0.0014
+step: 29000/50000, d_loss: 1.4875, g_loss_u: 1.4151, g_loss_s: 0.09, g_loss_v: 0.0391, e_loss_t0: 0.0013
+step: 30000/50000, d_loss: 1.6588, g_loss_u: 1.152, g_loss_s: 0.0864, g_loss_v: 0.0385, e_loss_t0: 0.0012
+step: 31000/50000, d_loss: 1.629, g_loss_u: 1.346, g_loss_s: 0.0867, g_loss_v: 0.0177, e_loss_t0: 0.001
+step: 32000/50000, d_loss: 1.7445, g_loss_u: 1.2976, g_loss_s: 0.0895, g_loss_v: 0.0248, e_loss_t0: 0.0013
+step: 33000/50000, d_loss: 1.7903, g_loss_u: 1.251, g_loss_s: 0.0823, g_loss_v: 0.0195, e_loss_t0: 0.0013
+step: 34000/50000, d_loss: 1.6559, g_loss_u: 1.3755, g_loss_s: 0.0817, g_loss_v: 0.019, e_loss_t0: 0.0011
+step: 35000/50000, d_loss: 1.6164, g_loss_u: 1.2822, g_loss_s: 0.0806, g_loss_v: 0.0388, e_loss_t0: 0.0013
+step: 36000/50000, d_loss: 1.4109, g_loss_u: 1.3076, g_loss_s: 0.0875, g_loss_v: 0.0217, e_loss_t0: 0.0007
+step: 37000/50000, d_loss: 1.6684, g_loss_u: 1.2136, g_loss_s: 0.0805, g_loss_v: 0.0248, e_loss_t0: 0.0013
+step: 38000/50000, d_loss: 1.5582, g_loss_u: 1.376, g_loss_s: 0.0828, g_loss_v: 0.0299, e_loss_t0: 0.001
+step: 39000/50000, d_loss: 1.5931, g_loss_u: 1.412, g_loss_s: 0.0885, g_loss_v: 0.0269, e_loss_t0: 0.0013
+step: 40000/50000, d_loss: 1.7965, g_loss_u: 1.4005, g_loss_s: 0.0872, g_loss_v: 0.0372, e_loss_t0: 0.0013
+step: 41000/50000, d_loss: 1.6546, g_loss_u: 1.2596, g_loss_s: 0.0855, g_loss_v: 0.0352, e_loss_t0: 0.001
+step: 42000/50000, d_loss: 1.5723, g_loss_u: 1.3576, g_loss_s: 0.08, g_loss_v: 0.0349, e_loss_t0: 0.001
+step: 43000/50000, d_loss: 1.6716, g_loss_u: 1.3946, g_loss_s: 0.08, g_loss_v: 0.0309, e_loss_t0: 0.0011
+step: 44000/50000, d_loss: 1.5478, g_loss_u: 1.2923, g_loss_s: 0.081, g_loss_v: 0.0306, e_loss_t0: 0.0011
+step: 45000/50000, d_loss: 1.6143, g_loss_u: 1.2296, g_loss_s: 0.0837, g_loss_v: 0.0286, e_loss_t0: 0.0009
+step: 46000/50000, d_loss: 1.6564, g_loss_u: 1.2636, g_loss_s: 0.0804, g_loss_v: 0.0256, e_loss_t0: 0.0011
+step: 47000/50000, d_loss: 1.5541, g_loss_u: 1.3964, g_loss_s: 0.076, g_loss_v: 0.0368, e_loss_t0: 0.001
+step: 48000/50000, d_loss: 1.4654, g_loss_u: 1.5315, g_loss_s: 0.0797, g_loss_v: 0.0297, e_loss_t0: 0.0014
+step: 49000/50000, d_loss: 1.7313, g_loss_u: 1.3794, g_loss_s: 0.0784, g_loss_v: 0.0351, e_loss_t0: 0.0013
+Finish Joint Training
+Finish Synthetic Data Generation
+generated_data shape is  (663120, 24, 1)
+Finished saving generated data pems04_ep
+[t-SNE] Computing 121 nearest neighbors...
+[t-SNE] Indexed 2000 samples in 0.002s...
+/mnt/data728/duyin/anaconda3/envs/tf/lib/python3.7/site-packages/sklearn/neighbors/base.py:441: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  old_joblib = LooseVersion(joblib_version) < LooseVersion('0.12')
+/mnt/data728/duyin/anaconda3/envs/tf/lib/python3.7/site-packages/sklearn/neighbors/base.py:441: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  old_joblib = LooseVersion(joblib_version) < LooseVersion('0.12')
+[t-SNE] Computed neighbors for 2000 samples in 0.347s...
+[t-SNE] Computed conditional probabilities for sample 1000 / 2000
+[t-SNE] Computed conditional probabilities for sample 2000 / 2000
+[t-SNE] Mean sigma: 0.213132
+[t-SNE] KL divergence after 250 iterations with early exaggeration: 67.868713
+[t-SNE] KL divergence after 300 iterations: 1.346617
+{'discriminative': 0.044263104717094964, 'predictive': 0.1686530741427826}
+Total execution time: 53777.77 seconds
