@@ -9,3 +9,5 @@ nohup python -u main.py --gpu 4 --name etthmpep_energympep_pems04mpep_pems08mpep
 
 
 run baselines in baselines.
+
+
